@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+19. Create facebook
+`rails g migration AddFacebookColumnstToUser provider uid image`
+`rails db:migrate`
+
+[Link devise](https://github.com/heartcombo/devise)
+in wiki
+[Omni auth instruction](https://github.com/heartcombo/devise/wiki/OmniAuth%3A-Overview)
+
+change routes
